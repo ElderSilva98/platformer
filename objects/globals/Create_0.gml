@@ -1,0 +1,10 @@
+enum PLAYERSTATE{
+	NORMAL,
+	HURT	
+}
+
+enum WEAPONSTATE{
+	DROP,
+	EQUIPPED,
+	ATTACK
+}

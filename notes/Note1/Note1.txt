@@ -1,0 +1,2 @@
+tileset setup scale: 200x200
+tileset game scale: 400x400
