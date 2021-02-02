@@ -4,7 +4,6 @@ function scr_playerStateHurt(){
 	
 	scr_getInputs();
 	
-	show_debug_message(hurt);
 	sprite_index = spr_playerhurt;
 	image_speed = 1;
 	

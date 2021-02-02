@@ -5,12 +5,11 @@ life = 5;
 knockback = 10;
 shoot = room_speed*1.5;
 hurt = 0.5;
-
-enum ENEMYSTATES{
-	
+hurt_sprite = spr_skeletonhurt;
+projectile = obj_bone;
+enum ENEMYSTATE{
 	NORMAL,
 	ATTACK,
 	HURT
-	
 }
 

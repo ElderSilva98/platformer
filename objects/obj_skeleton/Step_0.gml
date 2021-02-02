@@ -7,8 +7,6 @@ shoot = room_speed*1.5;
 //PULO LONGO
 if(place_meeting(x+8*sign(hsp),y,obj_jumptrigger) && obj_player.y < y)
 vsp = -5;
-//PULO CURTO
-
 
 //TOMANDO DANO
 
