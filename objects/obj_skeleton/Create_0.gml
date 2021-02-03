@@ -1,15 +1,18 @@
+//FISICA
 hsp = 0.5;
 vsp = 5;
 grav = 0.2;
+//ATRIBUTOS
 life = 5;
-knockback = 10;
-shoot = room_speed*1.5;
-hurt = 0.5;
-hurt_sprite = spr_skeletonhurt;
-projectile = obj_bone;
+knockback = 2;
+//CONTADORES
+cooldown = 2;
+shoot = room_speed*cooldown;
+hurt = 0.2*room_speed;
+
 enum ENEMYSTATE{
 	NORMAL,
-	ATTACK,
 	HURT
 }
 
+ENEMYSTATE = ENEMYSTATE.NORMAL;

@@ -27,9 +27,6 @@ else
 }
 if(hsp != 0) image_xscale = sign(hsp);
 
-if(place_meeting(x,y,obj_bone)){
-	PLAYERSTATE = PLAYERSTATE.HURT;
-}
 
 scr_collideMove();
 

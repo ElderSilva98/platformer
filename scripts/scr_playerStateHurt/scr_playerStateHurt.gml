@@ -8,7 +8,7 @@ function scr_playerStateHurt(){
 	image_speed = 1;
 	
 	if(place_free(x+sign(image_xscale),y)){
-	 x = x + knockback*sign(image_xscale*(-1));
+	 x = x + knockback*sign(damageDir);
 
 }
 	if(hurt <= 0){

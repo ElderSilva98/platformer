@@ -6,7 +6,6 @@ if(place_meeting(x,y,obj_block))
 instance_destroy(self);
 
 if(place_meeting(x,y,obj_bone)){
-	with(obj_bone)
-		instance_destroy();
+	with(instance_nearest(x,y,obj_bone)) instance_destroy();
 	instance_destroy(self);
 }

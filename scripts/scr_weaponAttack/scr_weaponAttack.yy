@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "ENEMYSTATES",
-    "path": "folders/Scripts/ENEMYSTATES.yy",
+    "name": "WEAPONSTATES",
+    "path": "folders/Scripts/WEAPONSTATES.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_enemyStateAttack",
+  "name": "scr_weaponAttack",
   "tags": [],
   "resourceType": "GMScript",
 }

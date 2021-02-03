@@ -6,7 +6,7 @@
     "path": "folders/Scripts/WEAPONSTATES.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_swordDropped",
+  "name": "scr_weaponDropped",
   "tags": [],
   "resourceType": "GMScript",
 }
