@@ -9,7 +9,7 @@ function scr_enemyStateHurt(argument0){
 	
 	if(hurt <= 0){
 		hurt = 0.2*room_speed;
-		ENEMYSTATE = ENEMYSTATE.NORMAL;
+		state = 0;
 	}
 
 }

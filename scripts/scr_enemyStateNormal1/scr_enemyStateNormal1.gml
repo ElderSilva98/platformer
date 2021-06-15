@@ -33,14 +33,15 @@ y = y+vsp;
 //DANO
 if(place_meeting(x,y,obj_slash)){
 	with (instance_nearest(x, y, obj_slash)) instance_destroy();
-	ENEMYSTATE = ENEMYSTATE.HURT;
+	state = 1;
 }else if(place_meeting(x,y,obj_lightorb)){
 	with (instance_nearest(x, y, obj_lightorb)) instance_destroy();
-	ENEMYSTATE = ENEMYSTATE.HURT;	
+	state = 1;	
 }
 
 
 scr_enemyJump();
-scr_enemyWalk(spr_skeletonwalk);
-scr_enemyStateShoot1(obj_bone);
+scr_enemyWalk(walkanim);
+if(canShoot) scr_enemyStateShoot1(projectile);
+
 }

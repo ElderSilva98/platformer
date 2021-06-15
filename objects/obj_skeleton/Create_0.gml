@@ -5,14 +5,14 @@ grav = 0.2;
 //ATRIBUTOS
 life = 5;
 knockback = 2;
+canShoot = false;
 //CONTADORES
 cooldown = 2;
 shoot = room_speed*cooldown;
 hurt = 0.2*room_speed;
+//ANIMAÇÃO
+walkanim = spr_skeletonwalk;
 
-enum ENEMYSTATE{
-	NORMAL,
-	HURT
-}
+state = 0;
 
-ENEMYSTATE = ENEMYSTATE.NORMAL;
+// STATE 0 = NORMAL/INITIAL | STATE 1 = HURT

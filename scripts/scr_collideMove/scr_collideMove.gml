@@ -34,11 +34,9 @@ if(place_meeting(x,y+vsp,obj_block))
 		y = y + sign(vsp);
 	}
 
-	vsp = 0
+	vsp = 0;
 }
 
 y = y+vsp;
-
-
 
 }
