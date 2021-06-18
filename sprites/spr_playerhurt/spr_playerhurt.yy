@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 7,
   "bbox_right": 24,
-  "bbox_top": 2,
+  "bbox_top": 4,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -150,6 +150,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ad6c9690-3675-4234-834b-f6dab2893ca3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Player",
     "path": "folders/Sprites/Player.yy",

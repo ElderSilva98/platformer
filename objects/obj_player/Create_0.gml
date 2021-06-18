@@ -3,7 +3,7 @@ hsp = 0;
 vsp = 0;
 grav = 0.2;
 walksp = 2;
-jumpsp = 5;
+jumpsp = 6;
 //ATRIBUTOS
 life = 10;
 knockback = 2;

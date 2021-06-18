@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_buttonright",
-    "path": "sprites/spr_buttonright/spr_buttonright.yy",
+    "name": "spr_skeletonShooter",
+    "path": "sprites/spr_skeletonShooter/spr_skeletonShooter.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,16 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"parent":{"name":"obj_rightbutton","path":"objects/obj_rightbutton/obj_rightbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rightbutton",
+  "name": "obj_skeletonShooter",
   "tags": [],
   "resourceType": "GMObject",
 }

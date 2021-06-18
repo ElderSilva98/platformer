@@ -33,7 +33,11 @@ if(place_meeting(x,y+vsp,obj_block))
 	{
 		y = y + sign(vsp);
 	}
-
+	
+	if(floor(vsp) > 4){
+	scr_dusteffect();
+	}
+	
 	vsp = 0;
 }
 
